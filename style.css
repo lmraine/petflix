@@ -4,10 +4,90 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /* outline: 5px solid rgba(255,0,0,0.3); */
 }
 
 body{
   background-color: #333; 
   color: white;
+  font-family: sans-serif;
+}
+
+header{
+  /* border: orange 2px solid; */
+}
+
+.hero {
+  background: transparent;
+  background-image: url("images/US-en-20220711-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  opacity: .5;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nav img {
+  width: 200px;
+  height: 100px;
+}
+
+.btn {
+  background: red;
+  color: white;
+  align-self: flex-start;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.hero-text {
+  width: 700px;
+  margin: auto;
+  z-index: 1;
+  font-weight: bodld;
+  /* border: blue 2px solid; */
+  text-align: center;
+  padding: 50px 90px;
+  line-height: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.hero-text h3 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.card {
+  background: black;
+  margin-top: .5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.card h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 3rem;;
+}
+
+.card h2{ 
+  font-size: 1.5rem;
+  font-weight: normal;
 }
