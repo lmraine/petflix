@@ -126,3 +126,26 @@ header{
   font-size: 1.5rem;
   font-weight: normal;
 }
+
+footer {
+  margin-top: .5rem;
+  padding: 5rem 5rem;
+  background: black;
+  color: #333;
+}
+
+.footer-title{
+  margin-bottom: 1rem;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-list li {
+  margin-bottom: 1rem;;
+}
