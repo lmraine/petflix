@@ -257,3 +257,16 @@ footer .footer-link-item a {
     text-decoration: none;
 }
 
+
+/*JS Examople*/
+
+.faq-answer {
+    max-height: 400px;
+    overflow: hidden;
+    transition: all .5 ease-out;
+}
+
+.faq-answer.closed{ 
+    max-height: 0;
+}
+
