@@ -49,7 +49,7 @@ img {
 
 .hero {
     /* border: 1px solid red; */
-   min-height: 70vh;
+    min-height: 70vh;
     background: url(images/US-en-20220815-popsignuptwoweeks-perspective_alpha_website_large.jpg) center center/cover;
     position: relative;
     width:100%;
@@ -190,21 +190,66 @@ img {
     }
 }
 
+.question-list {
+   padding: 40px;
+}
+
+.faq {
+    /* margin: auto;
+    text-align: center;
+    width: 80%; */
+    /* border: 2px solid blue; */
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.fa-plus {
+    color: white;
+}
+
+.faq-item {
+   padding: 20px 40px;
+   display: flex;
+   justify-content: space-between;
+   /* border: 2px solid red; */
+   max-width: 60%;
+   margin: auto;
+   font-size: 1.625rem;
+   font-weight: 400;
+   background: #303030;
+   margin-bottom: 1rem;
+}
+
 section {
     border-bottom: 8px solid #333;
 }
 
 footer {
-padding: 2rem 3rem;
+padding: 5rem 5rem;
+}
+
+.footer-title {
+    color: #737373;
+    margin-bottom: 30px;
+    font-size: 16px;
 }
 
 footer ul {
     list-style: none;
+    /* border: 2px solid blue; */
 }
 
 footer .footer-link-item {
     display: inline-block;
     width: 24.5%;
+    margin-bottom: 20px;
+    /* margin-left: 1.1rem; */
+    font-size: 13px;
 }
 
 footer .footer-link-item a {
