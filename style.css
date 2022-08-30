@@ -183,7 +183,14 @@ section {
     }
 
     .card h2 {
-        font-size: 1.125;
+        font-size: 1.125rem;
+    }
+
+    .faq-item, .faq-item-answer {
+        font-size: 1.125rem;;
+        font-weight: 100;
+        gap: 6;
+        /* max-width: 40%; */
     }
 
     footer .footer-link-item {
@@ -253,7 +260,8 @@ li:last-of-type {
 
 
 footer {
-padding: 5rem 5rem;
+padding: 5rem 5rem 3rem;
+
 }
 
 .footer-title {
@@ -264,14 +272,12 @@ padding: 5rem 5rem;
 
 footer ul {
     list-style: none;
-    /* border: 2px solid blue; */
 }
 
 footer .footer-link-item {
     display: inline-block;
     width: 24.5%;
     margin-bottom: 20px;
-    /* margin-left: 1.1rem; */
     font-size: 13px;
 }
 
